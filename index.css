@@ -1,0 +1,138 @@
+body {
+    background-color: #a3a3a3 !important;
+    margin: 0px 50px 0px 50px;
+    padding-top: 5px;
+}
+.logo {
+    padding: 2rem 0;
+}
+.menu-bar {
+    background: #444343;
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu-bar ul li:hover {
+    color: rgb(74, 243, 255);
+    cursor: pointer;
+}
+.start {
+    border-radius: 3px;
+    height: 40px;
+    color: beige;
+    background: black;
+    cursor: pointer;
+    margin: 5px;
+}
+.start:hover {
+    color: rgb(74, 243, 255);
+}
+.search {
+    height: 40px;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.counter {
+    height: 40px;
+    margin: 5px;
+}
+.counter-inner {
+    background: white;
+    display: inline;
+}
+.counter-no {
+    color: #5b7bd5;
+    font-weight: bold;
+    cursor: pointer;
+}
+td {
+    text-align: left;
+    padding-top: 10px;
+}
+.t1 {
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.f1 {
+    text-align: left;
+}
+h4 {
+    cursor: pointer;
+}
+hr {
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.t2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.footer-bar {
+    background: #444343;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer-main {
+    text-align: center;
+    color: blanchedalmond;
+}
+.footer-bar-1 {
+    background: #444343;
+    text-align: center;
+}
+.footer-bar-1 ul {
+    display: inline-flex;
+    list-style: none;
+}
+.footer-bar-1 ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border-radius: 3px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-bar-1 ul li:hover {
+    color: rgb(74, 243, 255);
+    cursor: pointer;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.search-input {
+    height: 40px;
+    border-radius: 6px;
+}
